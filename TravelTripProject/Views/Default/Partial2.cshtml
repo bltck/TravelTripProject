@@ -1,0 +1,18 @@
+﻿@using TravelTripProject.Models.Classes
+@model List<Blog>
+@foreach (var x in Model)
+{
+<div class="right">
+    <div class="bot-left">
+        <img src="@x.BlogImage" alt="" />
+    </div>
+    <div class="left-text">
+
+        <h4>@x.Title</h4>
+        <span class="doller">@x.Date.ToString("dd:MM:yyyy")</span>
+        <p>@x.Content.Substring(0, 100)</p>
+        <p><a href="/Blog/BlogDetails/@x.Id"><span class="read">Devamını Oku >></span></a></p>
+    </div>
+</div>
+}
+

@@ -1,0 +1,4 @@
+SİNEMA YÖNETİM SİSTEMİ
+----------
+Discount(Kampanya/indirim sistemi) : Manager ve özellik classları 
+Özellik:id,isim,Ücreti,Kampanya Cinsi(Yemekler,Seçili Koltuk Numaraları,Harcamaya yönelik Hediye Çeki)[Cinslere Özel Classlar oluşturulacak]
